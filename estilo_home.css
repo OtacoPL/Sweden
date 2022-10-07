@@ -1,0 +1,133 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #686868;
+}
+
+#Bandeira {
+    width: 350px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;  
+    margin-bottom: 5px; 
+}
+
+.imagem {
+    background-color: #353535;
+}
+
+.menu {
+    color: #353535;
+    width:100%;
+    height: 50px;
+    background-color: #353535;
+}
+
+nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-decoration: none; 
+    
+}
+
+nav ul li {
+    float: left;
+    margin: 4px;
+    padding: 4px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color:#004B87;
+    width: 350px;
+
+    display:block;
+    text-align: center;
+    padding: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #FFCD00;
+    color: #000000;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+a{
+    text-decoration: none; 
+    color:white
+}
+
+.esquerda {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 0;
+    background-color:#353535;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  h3{
+    color:  #FFCD00;
+    text-align: center;
+  }
+
+  .noticia{
+    color: white;
+    text-align: left;
+  }
+
+  h1{
+    text-align: center;
+    top:26%;
+    color:  #FFCD00;
+
+  }
+
+  h2{
+    text-align: center;
+    color: whitesmoke;
+  }
+
+ #centro{
+    padding-left: 200px;
+ }
+
+ .texto_centro{
+    color: #ccc;
+    text-align: justify;
+ }
+
+ #sweden{
+    height: auto;
+    width: 200px;
+    margin: 15px;
+    float: left;
+ }
+
+li{
+	font-size: 20px;
+}
+.comida {
+	padding: 5px;
+}
+
+.video{   
+	margin-left: auto;
+    margin-right: auto; 
+    display: block;   
+	
+}
+
+.contato{
+	font-size: 25px;
+	color: aliceblue;
+}
